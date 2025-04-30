@@ -188,6 +188,7 @@ Public Class GameWindow
     Private Sub aumentar_bits(cantidad)
         Try
             bits_box.Text = (Convert.ToInt32(bits_box.Text) + cantidad).ToString()
+            bits_progress_bar.Value = Math.Min(Convert.ToInt32(bits_box.Text), 2147483647)
         Catch ex As OverflowException
             autoClicTimer.Stop()
             Prestigio()
@@ -238,30 +239,33 @@ Public Class GameWindow
                     Dim id As Integer = lector.GetInt32("id")
 
                     Try
-                        ' Calcular el total en función del ID y el nivel
+                        ' Calcular el total en función del ID y el nivel con una progresión más suave
                         Select Case id
-                    'encapsulamiento
+                            'encapsulamiento
                             Case 1
                                 total += bits * nivel
-                    'clases
+                            'clases
                             Case 2
                                 If nivel = 0 Then
                                     total += 0
                                 Else
-                                    total += bits * Math.Pow(2, nivel)
+                                    ' Usar una progresión logarítmica en lugar de exponencial
+                                    total += bits * Math.Log(nivel + 1, 2) * 2
                                 End If
-                    'herencia
+                            'herencia
                             Case 3
-                                total += nivel * 2 * bits
-                    'agregacion
+                                total += nivel * bits
+                            'agregacion
                             Case 4
-                                total += nivel * total
-                    'asociacion
+                                ' Usar una progresión más suave para la agregación
+                                total += nivel * (total / 2)
+                            'asociacion
                             Case 5
                                 If nivel = 0 Then
                                     total += 0
                                 Else
-                                    total += Math.Pow(8, nivel)
+                                    ' Usar una progresión más suave para la asociación
+                                    total += Math.Pow(2, nivel) * 2
                                 End If
                         End Select
 
@@ -424,6 +428,7 @@ Public Class GameWindow
                 Dim lector As MySqlDataReader = comando.ExecuteReader()
                 If lector.Read() Then
                     bits_box.Text = lector.GetInt32("bits").ToString()
+                    bits_progress_bar.Value = Math.Min(Convert.ToInt32(bits_box.Text), 2147483647)
                 End If
             Catch ex As MySqlException
                 MessageBox.Show(ex.Message)

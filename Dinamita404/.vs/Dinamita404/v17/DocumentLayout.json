@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\",
+  "WorkspaceRootPath": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|d:\\old hdd\\universidad\\programacion_2\\trabajo_final\\game\\dinamita404\\globales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|solutionrelative:globales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|d:\\old hdd\\universidad\\programacion_2\\trabajo_final\\game\\dinamita404\\gamewindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|d:\\old hdd\\universidad\\programacion_2\\trabajo_final\\game\\dev_dinamita_404\\dinamita404\\gamewindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|solutionrelative:gamewindow.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|d:\\old hdd\\universidad\\programacion_2\\trabajo_final\\game\\dinamita404\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|d:\\old hdd\\universidad\\programacion_2\\trabajo_final\\game\\dev_dinamita_404\\dinamita404\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|d:\\old hdd\\universidad\\programacion_2\\trabajo_final\\game\\dinamita404\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{2CC1FBA1-D260-494E-9074-3B03CDAE7B44}|Dinamita404.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Form1.vb",
+              "DocumentMoniker": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Form1.vb [Dise\u00F1o]",
+              "ToolTip": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\Form1.vb [Dise\u00F1o]",
               "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-04-26T19:42:33.908Z",
@@ -43,41 +35,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameWindow.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\GameWindow.vb",
+              "DocumentMoniker": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\GameWindow.vb",
               "RelativeDocumentMoniker": "GameWindow.vb",
-              "ToolTip": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\GameWindow.vb [Dise\u00F1o]",
+              "ToolTip": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\GameWindow.vb [Dise\u00F1o]",
               "RelativeToolTip": "GameWindow.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-26T19:05:55.936Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-04-30T03:23:03.345Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Globales.vb",
-              "DocumentMoniker": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Globales.vb",
-              "RelativeDocumentMoniker": "Globales.vb",
-              "ToolTip": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Globales.vb",
-              "RelativeToolTip": "Globales.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-27T19:42:23.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Form1.vb",
-              "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDkAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-27T01:03:15.372Z"
             }
           ]
         }

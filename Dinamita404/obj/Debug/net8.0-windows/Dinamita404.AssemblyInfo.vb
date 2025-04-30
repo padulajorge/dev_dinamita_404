@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Dinamita404"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e20fb06f2a80beb731c9c0aacb0a530870af78df"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9a29a2ebbb8326a583da60be49bcf8234458697"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Dinamita404"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Dinamita404"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

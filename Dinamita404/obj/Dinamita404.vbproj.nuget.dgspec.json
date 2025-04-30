@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Dinamita404.vbproj": {}
+    "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\Dinamita404.vbproj": {}
   },
   "projects": {
-    "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Dinamita404.vbproj": {
+    "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\Dinamita404.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Dinamita404.vbproj",
+        "projectUniqueName": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\Dinamita404.vbproj",
         "projectName": "Dinamita404",
-        "projectPath": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\Dinamita404.vbproj",
+        "projectPath": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\Dinamita404.vbproj",
         "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-        "outputPath": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\Dinamita404\\obj\\",
+        "outputPath": "D:\\old hdd\\UNIVERSIDAD\\PROGRAMACION_2\\trabajo_final\\game\\dev_dinamita_404\\Dinamita404\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

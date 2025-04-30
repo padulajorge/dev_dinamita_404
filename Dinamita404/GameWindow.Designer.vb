@@ -52,6 +52,7 @@ Partial Class GameWindow
         bonus_label = New Label()
         lenguaje_text = New Label()
         lenguaje_label = New Label()
+        bits_progress_bar = New ProgressBar()
         TabPage2.SuspendLayout()
         TabPage1.SuspendLayout()
         TabControl1.SuspendLayout()
@@ -60,7 +61,7 @@ Partial Class GameWindow
         ' bits_label
         ' 
         bits_label.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        bits_label.Location = New Point(660, 82)
+        bits_label.Location = New Point(660, 128)
         bits_label.Name = "bits_label"
         bits_label.Size = New Size(150, 24)
         bits_label.TabIndex = 9
@@ -69,7 +70,7 @@ Partial Class GameWindow
         ' Label4
         ' 
         Label4.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Label4.Location = New Point(660, 36)
+        Label4.Location = New Point(660, 52)
         Label4.Name = "Label4"
         Label4.Size = New Size(150, 23)
         Label4.TabIndex = 7
@@ -80,7 +81,7 @@ Partial Class GameWindow
         ' 
         bits_box.BackColor = Color.Transparent
         bits_box.BorderStyle = BorderStyle.FixedSingle
-        bits_box.Location = New Point(660, 59)
+        bits_box.Location = New Point(660, 105)
         bits_box.Name = "bits_box"
         bits_box.Size = New Size(150, 23)
         bits_box.TabIndex = 8
@@ -257,7 +258,7 @@ Partial Class GameWindow
         ' prestigio_text
         ' 
         prestigio_text.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        prestigio_text.Location = New Point(660, 204)
+        prestigio_text.Location = New Point(660, 250)
         prestigio_text.Name = "prestigio_text"
         prestigio_text.Size = New Size(150, 23)
         prestigio_text.TabIndex = 7
@@ -267,7 +268,7 @@ Partial Class GameWindow
         ' prestigio_label
         ' 
         prestigio_label.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        prestigio_label.Location = New Point(660, 227)
+        prestigio_label.Location = New Point(660, 273)
         prestigio_label.Name = "prestigio_label"
         prestigio_label.Size = New Size(150, 24)
         prestigio_label.TabIndex = 9
@@ -276,7 +277,7 @@ Partial Class GameWindow
         ' bonus_text
         ' 
         bonus_text.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        bonus_text.Location = New Point(660, 274)
+        bonus_text.Location = New Point(660, 320)
         bonus_text.Name = "bonus_text"
         bonus_text.Size = New Size(150, 23)
         bonus_text.TabIndex = 7
@@ -286,7 +287,7 @@ Partial Class GameWindow
         ' bonus_label
         ' 
         bonus_label.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        bonus_label.Location = New Point(660, 297)
+        bonus_label.Location = New Point(660, 343)
         bonus_label.Name = "bonus_label"
         bonus_label.Size = New Size(150, 24)
         bonus_label.TabIndex = 9
@@ -295,7 +296,7 @@ Partial Class GameWindow
         ' lenguaje_text
         ' 
         lenguaje_text.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        lenguaje_text.Location = New Point(660, 134)
+        lenguaje_text.Location = New Point(660, 180)
         lenguaje_text.Name = "lenguaje_text"
         lenguaje_text.Size = New Size(150, 23)
         lenguaje_text.TabIndex = 7
@@ -305,17 +306,26 @@ Partial Class GameWindow
         ' lenguaje_label
         ' 
         lenguaje_label.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        lenguaje_label.Location = New Point(660, 157)
+        lenguaje_label.Location = New Point(660, 203)
         lenguaje_label.Name = "lenguaje_label"
         lenguaje_label.Size = New Size(150, 24)
         lenguaje_label.TabIndex = 9
         lenguaje_label.TextAlign = ContentAlignment.MiddleLeft
+        ' 
+        ' bits_progress_bar
+        ' 
+        bits_progress_bar.Location = New Point(660, 79)
+        bits_progress_bar.Maximum = Integer.MaxValue
+        bits_progress_bar.Name = "bits_progress_bar"
+        bits_progress_bar.Size = New Size(150, 23)
+        bits_progress_bar.TabIndex = 10
         ' 
         ' GameWindow
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(820, 450)
+        Controls.Add(bits_progress_bar)
         Controls.Add(bonus_label)
         Controls.Add(lenguaje_label)
         Controls.Add(prestigio_label)
@@ -364,4 +374,5 @@ Partial Class GameWindow
     Friend WithEvents bonus_label As Label
     Friend WithEvents lenguaje_text As Label
     Friend WithEvents lenguaje_label As Label
+    Friend WithEvents bits_progress_bar As ProgressBar
 End Class
